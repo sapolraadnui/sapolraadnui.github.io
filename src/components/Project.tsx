@@ -16,7 +16,7 @@ const projects = [
     description: (
       <>
         Built an end-to-end machine learning system to predict winter sidewalk slip risk in Vancouver using geospatial and meteorological data, with feature engineering, risk scoring, and an interactive dashboard for visualization (
-        <a href="https://salted.streamlit.app/" target="_blank" rel="noreferrer">View dashboard</a>
+        <a href="https://salted.streamlit.app/" target="_blank" rel="noreferrer">Try the app</a>
         ).
       </>
     ),
