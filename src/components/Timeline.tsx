@@ -35,7 +35,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Geophysicist</h3>
             <h4 className="vertical-timeline-element-subtitle">Bangkok, Thailand</h4>
             <p>
-              Development Geophysicist, Exploration Geophysicist, Associate Geophysicist
+              Development Geophysicist, Exploration Geophysicist, Associate Geoscientist
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

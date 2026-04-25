@@ -4,6 +4,8 @@ import sepsis from "../assets/images/sepsis.png";
 import tsunami from "../assets/images/tsunami.png";
 import salted from "../assets/images/salted.png";
 import cluster from "../assets/images/cluster.png";
+import beauty_ai from "../assets/images/beauty_ai.png";
+import world_education from "../assets/images/world_education.png";
 import "../assets/styles/Project.scss";
 
 const projects = [
@@ -15,18 +17,18 @@ const projects = [
       "Developed an end-to-end ML-based black ice risk prediction system using Python with geospatial and meteorological data, performing feature engineering and risk scoring on Vancouver sidewalk networks, and deploying an interactive web dashboard to communicate insights.",
   },
   {
-    title: "Predicting Sepsis Survival Based on Clinical Records",
-    link: "https://github.com/Eligoze75/Sepsis-Survival-Minimal-Clinical-Records",
-    image: sepsis,
+    title: "LatLongHelper",
+    link: "https://github.com/UBC-MDS/latlonghelper",
+    image: latlong,
     description:
-      "Built and evaluated machine learning models to predict sepsis survival using minimal clinical records, with emphasis on feature engineering, validation, and interpretability.",
+      "Lightweight utility for working with latitude/longitude data, simplifying coordinate validation, transformation, and geospatial preprocessing workflows.",
   },
   {
-    title: "Data-Driven Clustering of Subsurface Imaging Data",
-    link: "https://github.com/sapolraadnui/Data-Driven-Clustering-of-Multidimensional-Subsurface-Imaging-Data",
-    image: cluster,
+    title: "World Education Dashboard",
+    link: "https://github.com/UBC-MDS/DSCI-532_2026_15_WorldEducation",
+    image: world_education,
     description:
-      "Applied unsupervised learning techniques to multidimensional subsurface imaging data to uncover structure in complex geophysical signals and support data-driven interpretation.",
+      "Dashboard for global education metrics using Python and Shiny",
   },
   {
     title: "Tsunami Prediction (MDS Datathon)",
@@ -36,12 +38,19 @@ const projects = [
       "Developed an end-to-end predictive pipeline for tsunami-related outcomes, focusing on robust preprocessing, model selection, and performance evaluation.",
   },
   {
-    title: "LatLongHelper",
-    link: "https://github.com/UBC-MDS/latlonghelper",
-    image: latlong,
+    title: "NLP & LLM-Driven Product Recommendation Assistant",
+    link: "https://github.com/UBC-MDS/DSCI_575_project_rleeth_sapolr",
+    image: beauty_ai,
     description:
-      "Lightweight utility for working with latitude/longitude data, simplifying coordinate validation, transformation, and geospatial preprocessing workflows.",
+      "Context-aware product search assistant that returns relevant Amazon products based on natural language queries.",
   },
+  {
+    title: "Predicting Sepsis Survival Based on Clinical Records",
+    link: "https://github.com/Eligoze75/Sepsis-Survival-Minimal-Clinical-Records",
+    image: sepsis,
+    description:
+      "Built and evaluated machine learning models to predict sepsis survival using minimal clinical records, with emphasis on feature engineering, validation, and interpretability.",
+  }
 ];
 
 function Project() {
