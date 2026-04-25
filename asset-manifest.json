@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.1d2cde1a.css",
-    "main.js": "/static/js/main.e060ef38.js",
+    "main.js": "/static/js/main.6dadb728.js",
     "static/js/453.b05d8aa5.chunk.js": "/static/js/453.b05d8aa5.chunk.js",
     "static/media/paul-raadnui.jpg": "/static/media/paul-raadnui.6e512d23b404e0f0dd0f.jpg",
     "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/world_education.png": "/static/media/world_education.4c113b7ea0a4b4674bb2.png",
     "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/beauty_ai.png": "/static/media/beauty_ai.3de1ecc44968d1f1fc2d.png",
     "static/media/salted.png": "/static/media/salted.5d18d60466fbdb003074.png",
     "static/media/latlong.png": "/static/media/latlong.0bec2965afdb02c766f0.png",
     "static/media/tsunami.png": "/static/media/tsunami.e5bd67e5f42e0ceed394.png",
-    "static/media/cluster.png": "/static/media/cluster.f2d25bcebc676ae48306.png",
     "static/media/sepsis.png": "/static/media/sepsis.c6580b90d086d4c8ba5f.png",
     "index.html": "/index.html",
     "main.1d2cde1a.css.map": "/static/css/main.1d2cde1a.css.map",
-    "main.e060ef38.js.map": "/static/js/main.e060ef38.js.map",
+    "main.6dadb728.js.map": "/static/js/main.6dadb728.js.map",
     "453.b05d8aa5.chunk.js.map": "/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1d2cde1a.css",
-    "static/js/main.e060ef38.js"
+    "static/js/main.6dadb728.js"
   ]
 }
