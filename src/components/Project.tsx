@@ -10,46 +10,61 @@ import "../assets/styles/Project.scss";
 
 const projects = [
   {
-    title: "Weather-Based Prediction of Sidewalk Slip Risk in Winter (Hackathon)",
+    title: "Weather-Based Prediction of Sidewalk Slip Risk in Winter",
     link: "https://github.com/mara-sanchez1/salted", 
     image: salted,
-    description:
-      "Developed an end-to-end ML-based black ice risk prediction system using Python with geospatial and meteorological data, performing feature engineering and risk scoring on Vancouver sidewalk networks, and deploying an interactive web dashboard to communicate insights.",
+    description: (
+      <>
+        Built an end-to-end machine learning system to predict winter sidewalk slip risk in Vancouver using geospatial and meteorological data, with feature engineering, risk scoring, and an interactive dashboard for visualization (
+        <a href="https://salted.streamlit.app/" target="_blank" rel="noreferrer">View dashboard</a>
+        ).
+      </>
+    ),
   },
   {
     title: "LatLongHelper",
     link: "https://github.com/UBC-MDS/latlonghelper",
     image: latlong,
     description:
-      "Lightweight utility for working with latitude/longitude data, simplifying coordinate validation, transformation, and geospatial preprocessing workflows.",
+      "Developed a lightweight Python package for validating, transforming, and preprocessing latitude-longitude data, enabling cleaner and more reliable geospatial analysis workflows.",
   },
   {
     title: "World Education Dashboard",
     link: "https://github.com/UBC-MDS/DSCI-532_2026_15_WorldEducation",
     image: world_education,
-    description:
-      "Dashboard for global education metrics using Python and Shiny",
+    description: (
+      <>
+        Designed an interactive dashboard to explore global education indicators through maps and comparison plots, enabling analysis of access, attainment, and outcomes across countries (
+        <a href="https://sapolraadnui-worldeducation.share.connect.posit.cloud/" target="_blank" rel="noreferrer">View dashboard</a>
+        ).
+      </>
+    ),
   },
   {
-    title: "Tsunami Prediction (MDS Datathon)",
+    title: "Tsunami Prediction",
     link: "https://github.com/sapolraadnui/MDS_Datathon_Tsunami_Prediction",
     image: tsunami,
     description:
-      "Developed an end-to-end predictive pipeline for tsunami-related outcomes, focusing on robust preprocessing, model selection, and performance evaluation.",
+      "Built a predictive modeling pipeline for tsunami-related outcomes using structured disaster data, with robust preprocessing, model comparison, and evaluation of key risk factors.",
   },
   {
-    title: "NLP & LLM-Driven Product Recommendation Assistant",
+    title: "ContextCart: AI-Powered Product Search",
     link: "https://github.com/UBC-MDS/DSCI_575_project_rleeth_sapolr",
     image: beauty_ai,
-    description:
-      "Context-aware product search assistant that returns relevant Amazon products based on natural language queries.",
+    description: (
+      <>
+        Created a context-aware product search assistant that uses NLP and LLM-based reasoning to interpret natural language queries and return relevant Amazon beauty products (
+        <a href="https://dsci-575-project-rleeth-sapolr.streamlit.app/" target="_blank" rel="noreferrer">Try the app</a>
+        ).
+      </>
+    ),
   },
   {
-    title: "Predicting Sepsis Survival Based on Clinical Records",
+    title: "Predicting Sepsis Survival from Clinical Records",
     link: "https://github.com/Eligoze75/Sepsis-Survival-Minimal-Clinical-Records",
     image: sepsis,
     description:
-      "Built and evaluated machine learning models to predict sepsis survival using minimal clinical records, with emphasis on feature engineering, validation, and interpretability.",
+      "Developed machine learning models to predict sepsis survival from minimal clinical records, focusing on feature engineering, model validation, and interpretable clinical insights.",
   }
 ];
 
